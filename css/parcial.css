@@ -33,3 +33,12 @@
     height: 38px; /* Ajusta la altura del botón según el diseño */
   }
   
+
+
+  /* Añade estilos personalizados aquí si es necesario */
+#map {
+    background-color: #f0f0f0;
+    background-image: url('https://maps.gstatic.com/tactile/5/v/c5.png'); /* Ejemplo de fondo simulado */
+    background-size: cover;
+    background-position: center;
+}

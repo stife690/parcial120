@@ -47,6 +47,128 @@
 
 
 
+<!-- Formulario -->
+<div class="container">
+    <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">Nombres</label>
+          <input type="text" class="form-control" id="nombres"  required>
+          <span id="nameerror" class="error"></span>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="apellidos" required>
+          <span id="lastnameerror" class="error"></span>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label">Email</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="email" 
+            aria-describedby="inputGroupPrepend2" required>
+            <span id="emailerror" class="error"></span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault03" class="form-label">Teléfono</label>
+          <input type="number" class="form-control" id="telefono" required>
+          <span id="phoneerror" class="error"></span>
+        </div>
+        <div class="col-md-1">
+            <label for="validationDefault03" class="form-label">Estrato</label>
+            <input type="number" class="form-control" id="estrato" required>
+            <span id="estratoerror" class="error"></span>
+          </div>
+        
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">Fecha de nacimiento</label>
+          <input type="date" class="form-control" id="dob" required>
+          <span id="doberror" class="error"></span>
+        </div>
+        <div class="col-md-3">
+            <label for="validationDefault04" class="form-label">Grupo sanguineo</label>
+            <select class="form-select" id="sangre" required>
+              <option selected disabled value="">Escoja</option>
+              <option>A+</option>
+              <option>A-</option>
+              <option>O+</option>
+              <option>O-</option>
+            </select>
+            <span id="sangreerror" class="error"></span>
+          </div>
+          
+          
+  
+          <div class="d-flex p-5">
+            <div class="container">
+                <div class="row-md">
+                    <fieldset class="col-md">
+                        <legend class="col-form-label col-sm-2 pt-0">Géneros</legend>
+                        <div class="col-sm-10">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              Masculino
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Femenino
+                            </label>
+                          </div>
+                        </div>
+                      </fieldset>
+                </div>
+                
+                <div class="col-md">
+                    <fieldset class="col-md">
+                        <legend class="col-form-label col-sm-2 pt-0 text">Actividades favoritas</legend>
+                        <div class="col-sm-10">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              Fútbol
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Baloncesto
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Voleibol
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Ciclismo
+                            </label>
+                          </div>
+                        </div>
+                      </fieldset>
+                </div>
+                  
+            </div>
+            
+          </div>
+        
+  
+  
+          
+        <div class="container p-5">
+            <div class="row text-center">
+                <div class="col-md">
+                    <button class="btn btn-success btn-lg" type="submit">Agendar</button>
+                </div>
+                <div class="col-md">
+                    <a class="btn btn-danger btn-lg" href="login.html" role="button">Cancelar</a>
+                </div>
+            </div>
+
 
 
 
