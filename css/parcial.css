@@ -23,3 +23,13 @@
     text-align: center; /* Centrar el texto */
 
 }
+
+/* Ajuste del tamaño del input y el botón del buscador */
+.navbar .form-control {
+    width: 200px; /* Ajusta el tamaño según tus preferencias */
+  }
+  
+  .navbar .btn {
+    height: 38px; /* Ajusta la altura del botón según el diseño */
+  }
+  
