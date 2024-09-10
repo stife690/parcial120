@@ -10,7 +10,7 @@
 #carrusel .carousel-item img {
     width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: 100%; /* La altura de la imagen se ajusta al 100% de su contenedor (carousel-item) */
-    object-fit: cover; /* La imagen cubre todo el espacio disponible sin distorsionarse */
+    object-fit: cover; 
 }
 
 
@@ -24,21 +24,20 @@
 
 }
 
-/* Ajuste del tamaño del input y el botón del buscador */
+
 .navbar .form-control {
-    width: 200px; /* Ajusta el tamaño según tus preferencias */
+    width: 200px; 
   }
   
   .navbar .btn {
-    height: 38px; /* Ajusta la altura del botón según el diseño */
+    height: 38px; 
   }
   
 
 
-  /* Añade estilos personalizados aquí si es necesario */
 #map {
     background-color: #f0f0f0;
-    background-image: url('https://maps.gstatic.com/tactile/5/v/c5.png'); /* Ejemplo de fondo simulado */
+    background-image: url('https://maps.gstatic.com/tactile/5/v/c5.png'); 
     background-size: cover;
     background-position: center;
 }
